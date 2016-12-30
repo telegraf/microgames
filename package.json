@@ -1,0 +1,32 @@
+{
+  "name": "microgames",
+  "version": "0.1.0",
+  "description": "Telegram game platform example",
+  "private": true,
+  "license": "MIT",
+  "author": "Vitaly Domnikov <dotcypress@gmail.com>",
+  "homepage": "https://github.com/telegraf/microgames#readme",
+  "main": "index.js",
+  "repository": "telegraf/microgames",
+  "scripts": {
+    "start": "micro-bot -d ${NOW_URL}",
+    "watch": "supervisor -x micro-bot index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "finalhandler": "^0.5.0",
+    "jws": "^3.1.3",
+    "micro-bot": "^1.1.1",
+    "router": "^1.1.4",
+    "serve-static": "^1.11.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.0.0",
+    "eslint": "^3.7.0",
+    "eslint-config-standard": "^6.0.0",
+    "eslint-plugin-babel": "^4.0.0",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "supervisor": "^0.12.0"
+  }
+}
